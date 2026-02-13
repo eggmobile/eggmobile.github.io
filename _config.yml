@@ -1,0 +1,5 @@
+title: eggmobile
+description: Archives of Murayama Yoichi 
+theme: minima
+timezone: Asia/Tokyo
+permalink: /:year/:month/:day/:title/
