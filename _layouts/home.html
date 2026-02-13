@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<ul style="list-style:none; padding:0;">
+  {% for post in site.posts %}
+  <li style="margin-bottom:40px;">
+
+    {% if post.thumbnail %}
+    <img src="{{ post.thumbnail }}" style="width:200px; display:block; margin-bottom:10px;">
+    {% endif %}
+
+    <a href="{{ post.url }}">
+      <strong>{{ post.title }}</strong>
+    </a><br>
+
+    <small>{{ post.date | date: "%Y-%m-%d" }}</small>
+  </li>
+  {% endfor %}
+</ul>

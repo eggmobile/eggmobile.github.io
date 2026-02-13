@@ -1,0 +1,12 @@
+# Jekyll build output
+_site/
+
+# Local image inbox (iPhone drop folder)
+assets/images/inbox/
+
+# macOS
+.DS_Store
+
+# Bundler
+.bundle/
+vendor/
