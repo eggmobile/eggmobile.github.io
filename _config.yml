@@ -3,8 +3,5 @@ description: Completed and in-progress works coexist.
 theme: minima
 timezone: Asia/Tokyo
 permalink: /:year/:month/:day/:title/
-minima:
-  social_links:
-    - { platform: instagram, user_url: "https://instagram.com/eggmobile" }
-    - { platform: x, user_url: "https://x.com/eggmobile" }
-    - { platform: github, user_url: "https://github.com/eggmobile" }
+github_username: eggmobile
+instagram_username: eggmobile
