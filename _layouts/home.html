@@ -9,7 +9,9 @@ layout: default
   <li>
 
     {% if post.thumbnail %}
+    <a href="{{ post.url }}"></a>
     <img src="{{ post.thumbnail }}">
+    </a>
     {% endif %}
 
     <a href="{{ post.url }}">
