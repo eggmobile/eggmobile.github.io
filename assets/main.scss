@@ -61,5 +61,38 @@ body {
   display: none;
 }
 
+.area-grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 32px 20px;
+}
+
+.area-item { margin: 0; }
+
+.area-card {
+  display: block;
+  text-decoration: none;
+  color: #222;
+}
+
+.area-card:visited { color: #222; }
+
+.area-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.area-label {
+  margin-top: 10px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+
 /* ukkuriman のスタイルを追加 */
 @import "ukkuriman";

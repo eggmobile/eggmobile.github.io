@@ -1,12 +1,15 @@
 ---
 layout: page
-title: "Ukkuriman"
-permalink: /ukkuriman/
+title: "Sneaker Works"
+permalink: /sneakers/
 ---
 
+{% assign posts = site.tags.sneakers %}
+
+{% if posts %}
 <ul class="archive-grid">
-  {% assign posts = site.tags.ukkuriman | sort: "date" | reverse %}
-  {% for post in posts %}
+  {% assign posts_sorted = posts | sort: "date" | reverse %}
+  {% for post in posts_sorted %}
     <li class="archive-item">
       {% if post.thumbnail %}
         <a class="archive-thumb" href="{{ post.url | relative_url }}">
@@ -18,3 +21,6 @@ permalink: /ukkuriman/
     </li>
   {% endfor %}
 </ul>
+{% else %}
+<p>Coming soon.</p>
+{% endif %}
