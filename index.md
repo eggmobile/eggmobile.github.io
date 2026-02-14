@@ -6,7 +6,7 @@ permalink: /
 
 <div class="home-intro">
   <h1 class="home-title">eggmobile</h1>
-  <p class="home-subtitle">Works archive by Yoichi Murayama</p>
+  <p class="home-subtitle">Works archive by Murayama Yoichi</p>
 </div>
 
 <ul class="area-grid">
