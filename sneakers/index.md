@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Sneaker Works"
+title: "スニーカー星人"
 permalink: /sneakers/
 ---
 

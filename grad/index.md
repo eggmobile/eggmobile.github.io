@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Graduation Project"
+title: "2026卒制"
 permalink: /grad/
 ---
 

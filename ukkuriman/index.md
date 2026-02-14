@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Ukkuriman"
+title: "うっクリマン"
 permalink: /ukkuriman/
 ---
 

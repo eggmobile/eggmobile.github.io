@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Apps"
+title: "アプリ開発"
 permalink: /apps/
 ---
 
