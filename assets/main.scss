@@ -57,5 +57,9 @@ body {
   text-decoration: none;
 }
 
+.site-footer .p-name {
+  display: none;
+}
+
 /* ukkuriman のスタイルを追加 */
 @import "ukkuriman";
