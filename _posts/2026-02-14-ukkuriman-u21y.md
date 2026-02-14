@@ -1,0 +1,23 @@
+---
+layout: post
+title: "うっクリマン 機ソクタダ師"
+date: 2026-02-14 18:20:00 +0900
+tags: [ukkuriman, archive]
+thumbnail: /assets/images/ukkuriman/u21_yobou_front.jpg
+---
+<div class="wrapper ukkuriman yobou">
+  <h1>機ソクタダ師</h1>
+  <div class="sticker">
+    <div class="sticker-front">
+      <img src="/assets/images/ukkuriman/u21_yobou_front.jpg" alt="シール表面">
+    </div>
+    <div class="sticker-back">
+      <img src="/assets/images/ukkuriman/u21_yobou_back.jpg" alt="シール裏面">
+    </div>
+  </div>
+  <div class="description">
+    うつ病は、心がつかれて元気が出なくなる病気です。<br>
+    これをふせぐためには、規則正しい生活がとても大切です。たとえば、朝決まった時間に起きて、ごはんを食べて、夜は早く寝ること。スマホやゲームをやりすぎず、体をうごかすことも大事です。生活のリズムがくずれると、心もつかれてしまいます。だから、毎日同じ時間に生活するように気をつけましょう。
+    <br>元気にすごすことで、心も体も守ることができます。
+  </div>
+</div>

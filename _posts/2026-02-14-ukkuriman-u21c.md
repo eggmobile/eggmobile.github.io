@@ -1,0 +1,23 @@
+---
+layout: post
+title: "うっクリマン 聖NR愛"
+date: 2026-02-14 18:11:00 +0900
+tags: [ukkuriman, archive]
+thumbnail: /assets/images/ukkuriman/u21_care_front.jpg
+---
+<div class="wrapper ukkuriman care">
+  <h1>聖NR愛</h1>
+  <div class="sticker">
+    <div class="sticker-front">
+      <img src="/assets/images/ukkuriman/u21_care_front.jpg" alt="シール表面">
+    </div>
+    <div class="sticker-back">
+      <img src="/assets/images/ukkuriman/u21_care_back.jpg" alt="シール裏面">
+    </div>
+  </div>
+  <div class="description">
+    うつ病の治療では、「モノアミン」とよばれる脳の中の伝達物質のバランスを整える薬が使われます。<br>
+    その中でもよく使われるのが、SSRI（選択的セロトニン再取り込み阻害薬）とSNRI（セロトニン・ノルアドレナリン再取り込み阻害薬）です。SSRIは「セロトニン」の働きを、SNRIは「セロトニン」と「ノルアドレナリン」の両方の働きを助けることで、気分の落ち込みや不安をやわらげる効果があります。<br>
+    これらの薬は、飲みはじめてすぐに効果が出るわけではなく、数週間かけて少しずつ効いてくることが多いです。副作用が出ることもあるため、必ず医師の指示にしたがって飲み、自分の判断でやめたり量を変えたりしないことが大切です。薬の力を借りながら、ゆっくりと心を回復させていきましょう。
+  </div>
+</div>

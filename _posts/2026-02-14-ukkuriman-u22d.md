@@ -1,0 +1,23 @@
+---
+layout: post
+title: "うっクリマン 事故ハン断厄"
+date: 2026-02-14 18:23:00 +0900
+tags: [ukkuriman, archive]
+thumbnail: /assets/images/ukkuriman/u22_dema_front.jpg
+---
+<div class="wrapper ukkuriman dema">
+  <h1>事故ハン断厄</h1>
+  <div class="sticker">
+    <div class="sticker-front">
+      <img src="/assets/images/ukkuriman/u22_dema_front.jpg" alt="シール表面">
+    </div>
+    <div class="sticker-back">
+      <img src="/assets/images/ukkuriman/u22_dema_back.jpg" alt="シール裏面">
+    </div>
+  </div>
+  <div class="description">
+    薬を使った治療では、自己判断で薬をやめたり、飲む量を変えたりすることはとても危険です。<br>
+    うつ病の薬は、医師が一人ひとりの症状に合わせて量や種類を決めています。自分で「もう大丈夫」と思って急に飲むのをやめてしまうと、気分が不安定になったり、症状がぶり返したりすることがあります。逆に、効果を早く出したいからといって、勝手に量を増やすのも体に負担がかかってしまいます。<br>
+    薬はあくまでも「治す力を助ける道具」です。安心して治療を続けるためにも、どんなときも医師と相談しながら飲み続けることが大切です。
+  </div>
+</div>
