@@ -6,7 +6,6 @@ tags: [ukkuriman, archive]
 thumbnail: /assets/images/ukkuriman/u22_yobou_front.jpg
 ---
 <div class="wrapper ukkuriman yobou">
-  <div class="wrapper">
     <h1>テキ努ウン童</h1>
     <div class="sticker">
       <div class="sticker-front">
@@ -22,4 +21,3 @@ thumbnail: /assets/images/ukkuriman/u22_yobou_front.jpg
       ただし、無理に激しい運動をする必要はありません。自分のペースで、無理なく続けられる運動を取り入れましょう。体を動かすことで、睡眠の質が向上したり、ストレスが軽減されたりと、心と体のバランスが整います。
     </div>
   </div>
-</div>
