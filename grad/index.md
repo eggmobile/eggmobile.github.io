@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "2026卒制"
+title: "2025卒制"
 permalink: /grad/
 ---
 
