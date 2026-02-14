@@ -1,10 +1,14 @@
 ---
 layout: page
-title: "2025卒制"
+title: "卒業制作"
 permalink: /grad/
 ---
 
-<p>2025 KUA 通信 グラフィックデザインコース卒制</p>
+<p>
+2025年度 卒業制作<br>
+京都芸術大学 通信教育部<br>
+グラフィックデザインコース
+</p>
 
 <ul class="area-grid">
   <li class="area-item">

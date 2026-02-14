@@ -13,7 +13,8 @@ permalink: /
   <li class="area-item">
     <a class="area-card" href="/grad/">
       <img class="area-img" src="/assets/images/cover/grad.jpg" alt="Graduation Project">
-      <div class="area-label">2025 KUA 通信 グラフィックデザインコース卒制</div>
+      <div class="area-label">
+        2025年度 卒業制作<br>京都芸術大学 通信教育部<br>グラフィックデザインコース</div>
     </a>
   </li>
 
