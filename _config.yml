@@ -6,3 +6,9 @@ permalink: /:year/:month/:day/:title/
 instagram_username: eggmobile
 twitter_username: eggmobile
 github_username: eggmobile
+header_pages:
+  - grad/index.md
+  - sneakers/index.md
+  - apparel/index.md
+  - ukkuriman/index.md
+  - apps/index.md
