@@ -1,0 +1,25 @@
+---
+---
+@import "minima";
+
+body {
+  background-color: #fcfcfc;
+  /* 背景を少しだけグレーに */
+  color: #333;
+  /* 少し柔らかい黒 */
+}
+
+.page-content ul {
+  margin-left: 0;
+  list-style:none;
+  padding:0;
+}
+
+.page-content ul li {
+  margin-bottom:40px;
+}
+
+.page-content ul img {
+  width:200px;
+  display:block;
+}
