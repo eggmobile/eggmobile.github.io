@@ -4,22 +4,17 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-<ul>
+<ul class="archive-grid">
   {% for post in site.posts %}
-  <li>
-
+  <li class="archive-item">
     {% if post.thumbnail %}
-    <a href="{{ post.url }}">
-      <img src="{{ post.thumbnail }}">
+    <a class="archive-thumb" href="{{ post.url | relative_url }}">
+      <img class="archive-img" src="{{ post.thumbnail | relative_url }}" alt="{{ post.title | escape }}">
     </a>
-    <br>
     {% endif %}
 
-    <a href="{{ post.url }}">
-      <strong>{{ post.title }}</strong>
-    </a><br>
-
-    <small>{{ post.date | date: "%Y-%m-%d" }}</small>
+    <a class="archive-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <small class="archive-date">{{ post.date | date: "%Y-%m-%d" }}</small>
   </li>
   {% endfor %}
 </ul>
