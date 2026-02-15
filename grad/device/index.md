@@ -4,7 +4,14 @@ title: "デバイス"
 permalink: /grad/device/
 nav_exclude: true
 ---
-
+<img class="top-img" src="/assets/images/grad/device/grad_device_top.jpg" alt="他人との距離">
+<br>
+<img class="top-img" src="/assets/images/grad/device/grad_device_01.jpg" alt="Raspberry Piとレゴを使ったデバイス">
+<br>
+<img class="top-img" src="/assets/images/grad/device/grad_device_02.jpg" alt="デバイスの使い方">
+<hr>
+<br>
+<p>卒展での様子</p>
 {% assign posts = site.tags.grad_device %}
 {% if posts %}
   {% assign posts_sorted = posts | sort: "date" | reverse %}

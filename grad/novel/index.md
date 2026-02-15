@@ -4,7 +4,12 @@ title: "小説"
 permalink: /grad/novel/
 nav_exclude: true
 ---
-
+<img class="top-img" src="/assets/images/grad/novel/grad_novel_top.jpg" alt="個人との距離">
+<br>
+<img class="top-img" src="/assets/images/grad/novel/grad_novel_01.jpg" alt="うつ病をテーマにした小説とその組版設計">
+<hr>
+<br>
+<p>卒展での様子</p>
 {% assign posts = site.tags.grad_novel %}
 {% if posts %}
   {% assign posts_sorted = posts | sort: "date" | reverse %}
