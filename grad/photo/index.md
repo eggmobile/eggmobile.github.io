@@ -8,6 +8,8 @@ nav_exclude: true
 <br>
 <img class="top-img" src="/assets/images/grad/photo/grad_photo_01.jpg" alt="展示会の様子">
 <br>
+<img class="top-img" src="/assets/images/grad/photo/grad_photo_02.jpg" alt="展示会の様子">
+<br>
 <img class="top-img" src="/assets/images/grad/photo/grad_photo_app.jpg" alt="モバイルアプリ">
 <hr>
 <br>
