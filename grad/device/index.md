@@ -6,7 +6,7 @@ nav_exclude: true
 ---
 <p>
   デバイスでは、あなたの言葉を<br>
-  温もりとともに伝えること<br>
+  温もりとともに伝える<br>
   という体験を提示しました。
 </p>
 <img class="top-img" src="/assets/images/grad/device/grad_device_top.jpg" alt="他人との距離">
