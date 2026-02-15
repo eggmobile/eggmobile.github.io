@@ -11,3 +11,55 @@
 .grad-main .top-img-wrapper img {
   border-radius: 4px;
 }
+
+/* 画像だけに色膜をかける */
+
+.area-img-wrap {
+  position: relative;
+  display: block;
+}
+
+.area-img-wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+  border-radius: 4px; /* area-imgと揃える */
+}
+
+/* Cyan */
+.grad-photo .area-card:hover .area-img-wrap::after {
+  background: rgba(0, 255, 255, 0.3);
+  mix-blend-mode: multiply;
+  opacity: 1;
+}
+
+/* Magenta */
+.grad-novel .area-card:hover .area-img-wrap::after {
+  background: rgba(255, 0, 255, 0.3);
+  mix-blend-mode: multiply;
+  opacity: 1;
+}
+
+/* Yellow */
+.grad-device .area-card:hover .area-img-wrap::after {
+  background: rgba(255, 255, 0, 0.3);
+  mix-blend-mode: multiply;
+  opacity: 1;
+}
+
+/* Grad label color shadow */
+
+.grad-photo .area-label {
+  text-shadow: 0 2px 6px rgba(0, 255, 255, 0.55);
+}
+
+.grad-novel .area-label {
+  text-shadow: 0 2px 6px rgba(255, 0, 255, 0.55);
+}
+
+.grad-device .area-label {
+  text-shadow: 0 2px 6px rgba(255, 255, 0, 0.75);
+}
