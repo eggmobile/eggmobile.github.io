@@ -51,7 +51,6 @@ permalink: /
 <script>
 (() => {
   const items = () => document.querySelectorAll('.tilt');
-
   const clamp = (v, min, max) => Math.max(min, Math.min(max, v));
 
   function applyTilt(beta, gamma) {
@@ -59,23 +58,58 @@ permalink: /
     const y = clamp(beta,  -12, 12) * 0.20; // 前後
 
     items().forEach(el => {
-      // el.style.transform = `translate(${x}px, ${y}px)`;
       const rot = clamp(beta, -12, 12) * 0.08; // 0.05〜0.12で調整
       el.style.transform = `translate(${x}px, ${y}px) rotateX(${rot}deg)`;
     });
   }
 
   let baseBeta = null;
+  let started = false;
 
-  window.addEventListener('deviceorientation', (e) => {
-    if (e.beta == null || e.gamma == null) return;
+  function start() {
+    if (started) return;
+    started = true;
 
-    if (baseBeta === null) baseBeta = e.beta;
+    window.addEventListener('deviceorientation', (e) => {
+      if (e.beta == null || e.gamma == null) return;
 
-    const beta = e.beta - baseBeta;   // 相対値にする
-    const gamma = e.gamma;
+      if (baseBeta === null) baseBeta = e.beta;
 
-    applyTilt(beta, gamma);
-  }, { passive: true });
+      const beta = e.beta - baseBeta; // 相対値
+      const gamma = e.gamma;
+
+      applyTilt(beta, gamma);
+    }, { passive: true });
+  }
+
+  // iOS Safari はユーザー操作(タップ)の中で許可が必要
+  const needsPermission =
+    typeof DeviceOrientationEvent !== 'undefined' &&
+    typeof DeviceOrientationEvent.requestPermission === 'function';
+
+  if (!needsPermission) {
+    // Android Chrome 等はそのまま開始できることが多い
+    start();
+    return;
+  }
+
+  // 画面のどこでも良いので「最初のタップ」で許可を取る（ボタン無し）
+  async function requestOnce() {
+    try {
+      const res = await DeviceOrientationEvent.requestPermission();
+      if (res === 'granted') {
+        start();
+      }
+    } catch (err) {
+      // 許可できない環境では何もしない
+      console.log(err);
+    } finally {
+      window.removeEventListener('touchstart', requestOnce);
+      window.removeEventListener('click', requestOnce);
+    }
+  }
+
+  window.addEventListener('touchstart', requestOnce, { once: true, passive: true });
+  window.addEventListener('click', requestOnce, { once: true });
 })();
 </script>
