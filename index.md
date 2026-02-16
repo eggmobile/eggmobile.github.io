@@ -94,22 +94,47 @@ permalink: /
   }
 
   // 画面のどこでも良いので「最初のタップ」で許可を取る（ボタン無し）
-  async function requestOnce() {
+  // NOTE: iOS Safari は "window のイベント" だと許可ダイアログが出ないことがあるため、
+  //       透明なフルスクリーン要素でユーザー操作を確実に捕まえる。
+  const gate = document.createElement('div');
+  gate.setAttribute('aria-hidden', 'true');
+  gate.style.cssText = 'position:fixed;inset:0;z-index:9999;background:transparent;';
+
+  // うっすらヒント（ボタンではない）
+  const hint = document.createElement('div');
+  hint.textContent = 'tap once to enable tilt';
+  hint.style.cssText = 'position:fixed;right:12px;bottom:12px;font-size:12px;' +
+    'color:#777;background:rgba(255,255,255,.7);padding:6px 10px;border-radius:999px;' +
+    'border:1px solid rgba(0,0,0,.08);';
+  gate.appendChild(hint);
+
+  document.body.appendChild(gate);
+
+  function cleanupGate() {
+    try { gate.remove(); } catch (_) {}
+  }
+
+  async function requestOnce(ev) {
+    // 最初のタップでリンク遷移してしまうのを防ぐ（許可ダイアログを出すため）
+    if (ev) {
+      ev.preventDefault();
+      ev.stopPropagation();
+    }
+
     try {
       const res = await DeviceOrientationEvent.requestPermission();
       if (res === 'granted') {
         start();
       }
     } catch (err) {
-      // 許可できない環境では何もしない
       console.log(err);
     } finally {
-      window.removeEventListener('touchstart', requestOnce);
-      window.removeEventListener('click', requestOnce);
+      cleanupGate();
     }
   }
 
-  window.addEventListener('touchstart', requestOnce, { once: true, passive: true });
-  window.addEventListener('click', requestOnce, { once: true });
+  // iOS は touchend / click のほうが安定
+  gate.addEventListener('touchend', requestOnce, { once: true });
+  gate.addEventListener('click', requestOnce, { once: true });
 })();
 </script>
