@@ -52,15 +52,27 @@ permalink: /
 (() => {
   const items = () => document.querySelectorAll('.tilt');
 
+  const clamp = (v, min, max) => Math.max(min, Math.min(max, v));
+
   function applyTilt(beta, gamma) {
-    // beta: 前後(-180..180), gamma: 左右(-90..90)
-    const clamp = (v, min, max) => Math.max(min, Math.min(max, v));
     const x = clamp(gamma, -12, 12) * 0.35; // 左右
     const y = clamp(beta,  -12, 12) * 0.20; // 前後
 
     items().forEach(el => {
       el.style.transform = `translate(${x}px, ${y}px)`;
     });
+
+    // デバッグ表示（確認できたら消してOK）
+    let dbg = document.getElementById('tilt-debug');
+    if (!dbg) {
+      dbg = document.createElement('div');
+      dbg.id = 'tilt-debug';
+      dbg.style.cssText =
+        'position:fixed;left:10px;bottom:10px;font-size:12px;z-index:9999;' +
+        'color:#666;background:rgba(255,255,255,.7);padding:6px 8px;border-radius:8px;';
+      document.body.appendChild(dbg);
+    }
+    dbg.textContent = `beta:${beta.toFixed(1)} gamma:${gamma.toFixed(1)}`;
   }
 
   function start() {
@@ -68,25 +80,13 @@ permalink: /
       if (e.beta == null || e.gamma == null) return;
       applyTilt(e.beta, e.gamma);
     }, { passive: true });
-
-    let dbg = document.getElementById('tilt-debug');
-    if (!dbg) {
-      dbg = document.createElement('div');
-      dbg.id = 'tilt-debug';
-      dbg.style.cssText = 'position:fixed;left:10px;bottom:10px;font-size:12px;z-index:9999;color:#666;background:rgba(255,255,255,.7);padding:6px 8px;border-radius:8px;';
-      document.body.appendChild(dbg);
-    }
-    dbg.textContent = `beta:${e.beta.toFixed(1)} gamma:${e.gamma.toFixed(1)}`;
-
   }
 
-  // iOS Safari: permission required
   const needsPermission =
     typeof DeviceOrientationEvent !== 'undefined' &&
     typeof DeviceOrientationEvent.requestPermission === 'function';
 
   if (needsPermission) {
-    // 小さく控えめな許可ボタンを出す（トップだけの「遊び」なので）
     const btn = document.createElement('button');
     btn.textContent = 'tilt on';
     btn.style.cssText = `
@@ -112,7 +112,6 @@ permalink: /
       }
     });
   } else {
-    // Android Chromeなどは許可なしで動くことが多い
     start();
   }
 })();
