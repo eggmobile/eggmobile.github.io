@@ -16,6 +16,8 @@ nav_exclude: true
 <img class="top-img" src="/assets/images/grad/photo/grad_photo_02.jpg" alt="展示会の様子">
 <br>
 <img class="top-img" src="/assets/images/grad/photo/grad_photo_app.jpg" alt="モバイルアプリ">
+<br>
+<br>
 <p>
   2024年12月6日・7日に千葉県で「うつ病をもっと身近に」というタイトルの写真展を開催しました。
 </p>
@@ -25,25 +27,37 @@ nav_exclude: true
 <p>
   本展示は、社会とうつ病のあいだに存在する見えない距離を可視化する試みです。
 </p>
+<br>
+<br>
 <hr>
 <br>
-<p>卒展での様子</p>
-{% assign posts = site.tags.grad_photo %}
-{% if posts %}
-  {% assign posts_sorted = posts | sort: "date" | reverse %}
-  <ul class="archive-grid">
-    {% for post in posts_sorted %}
-      <li class="archive-item">
-        {% if post.thumbnail %}
-          <a class="archive-thumb" href="{{ post.url | relative_url }}">
-            <img class="archive-img" src="{{ post.thumbnail | relative_url }}" alt="{{ post.title | escape }}">
-          </a>
-        {% endif %}
-        <a class="archive-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <small class="archive-date">{{ post.date | date: "%Y-%m-%d" }}</small>
-      </li>
-    {% endfor %}
-  </ul>
-{% else %}
-  <p>Coming soon.</p>
-{% endif %}
+<div class="area-grid">
+
+  <div class="area-item">
+    <a href="/grad/photo/works/" class="area-card">
+      <div class="area-img-wrap">
+        <img src="/assets/images/grad/photo/thumb_works.jpg" class="area-img" alt="">
+      </div>
+      <div class="area-label">作品</div>
+    </a>
+  </div>
+
+  <div class="area-item">
+    <a href="/grad/photo/exhibition/" class="area-card">
+      <div class="area-img-wrap">
+        <img src="/assets/images/grad/photo/thumb_exhibition.jpg" class="area-img" alt="">
+      </div>
+      <div class="area-label">展示風景</div>
+    </a>
+  </div>
+
+  <div class="area-item">
+    <a href="/grad/photo/visitors/" class="area-card">
+      <div class="area-img-wrap">
+        <img src="/assets/images/grad/photo/thumb_visitors.jpg" class="area-img" alt="">
+      </div>
+      <div class="area-label">観覧の様子</div>
+    </a>
+  </div>
+
+</div>

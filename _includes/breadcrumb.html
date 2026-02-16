@@ -1,0 +1,30 @@
+{% assign parts = page.url | split: '/' %}
+{% assign path = '' %}
+
+<nav class="breadcrumb">
+  <a href="{{ '/' | relative_url }}">トップ</a>
+
+  {% for part in parts %}
+    {% unless part == '' or part == 'index.html' %}
+      {% assign path = path | append: '/' | append: part %}
+
+      {% assign label = part %}
+
+      {% if part == 'grad' %}
+        {% assign label = '卒業制作' %}
+      {% elsif part == 'photo' %}
+        {% assign label = '写真展' %}
+      {% elsif part == 'device' %}
+        {% assign label = 'デバイス' %}
+      {% elsif part == 'novel' %}
+        {% assign label = '小説' %}
+      {% endif %}
+
+      {% if forloop.last %}
+        / <span>{{ page.title }}</span>
+      {% else %}
+        / <a href="{{ path | relative_url }}">{{ label }}</a>
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+</nav>
