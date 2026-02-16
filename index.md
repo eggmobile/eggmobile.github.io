@@ -49,18 +49,71 @@ permalink: /
 </ul>
 
 <script>
-if (window.DeviceOrientationEvent) {
-  window.addEventListener('deviceorientation', function(e) {
-    const gamma = e.gamma || 0; // 左右
-    const beta = e.beta || 0;   // 前後
+(() => {
+  const items = () => document.querySelectorAll('.tilt');
 
-    const x = Math.max(-10, Math.min(10, gamma)) * 0.4 * 10;
-    const y = Math.max(-10, Math.min(10, beta)) * 0.2 * 10;
+  function applyTilt(beta, gamma) {
+    // beta: 前後(-180..180), gamma: 左右(-90..90)
+    const clamp = (v, min, max) => Math.max(min, Math.min(max, v));
+    const x = clamp(gamma, -12, 12) * 0.35; // 左右
+    const y = clamp(beta,  -12, 12) * 0.20; // 前後
 
-    document.querySelectorAll('.tilt').forEach(el => {
+    items().forEach(el => {
       el.style.transform = `translate(${x}px, ${y}px)`;
-      el.style.boxShadow = `${-x}px ${-y}px 20px rgba(0,0,0,0.08)`;
     });
-  });
-}
+  }
+
+  function start() {
+    window.addEventListener('deviceorientation', (e) => {
+      if (e.beta == null || e.gamma == null) return;
+      applyTilt(e.beta, e.gamma);
+    }, { passive: true });
+
+    let dbg = document.getElementById('tilt-debug');
+    if (!dbg) {
+      dbg = document.createElement('div');
+      dbg.id = 'tilt-debug';
+      dbg.style.cssText = 'position:fixed;left:10px;bottom:10px;font-size:12px;z-index:9999;color:#666;background:rgba(255,255,255,.7);padding:6px 8px;border-radius:8px;';
+      document.body.appendChild(dbg);
+    }
+    dbg.textContent = `beta:${e.beta.toFixed(1)} gamma:${e.gamma.toFixed(1)}`;
+
+  }
+
+  // iOS Safari: permission required
+  const needsPermission =
+    typeof DeviceOrientationEvent !== 'undefined' &&
+    typeof DeviceOrientationEvent.requestPermission === 'function';
+
+  if (needsPermission) {
+    // 小さく控えめな許可ボタンを出す（トップだけの「遊び」なので）
+    const btn = document.createElement('button');
+    btn.textContent = 'tilt on';
+    btn.style.cssText = `
+      position: fixed; right: 12px; bottom: 12px; z-index: 9999;
+      font-size: 12px; padding: 8px 10px; border-radius: 999px;
+      border: 1px solid rgba(0,0,0,.15); background: rgba(255,255,255,.85);
+      color: #333;
+    `;
+    document.body.appendChild(btn);
+
+    btn.addEventListener('click', async () => {
+      try {
+        const res = await DeviceOrientationEvent.requestPermission();
+        if (res === 'granted') {
+          start();
+          btn.remove();
+        } else {
+          btn.textContent = 'tilt off';
+        }
+      } catch (err) {
+        btn.textContent = 'tilt error';
+        console.log(err);
+      }
+    });
+  } else {
+    // Android Chromeなどは許可なしで動くことが多い
+    start();
+  }
+})();
 </script>
