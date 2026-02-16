@@ -59,21 +59,24 @@ permalink: /
     const y = clamp(beta,  -12, 12) * 0.20; // 前後
 
     items().forEach(el => {
-      el.style.transform = `translate(${x}px, ${y}px)`;
+      // el.style.transform = `translate(${x}px, ${y}px)`;
+      const rot = clamp(beta, -12, 12) * 0.08; // 0.05〜0.12で調整
+      el.style.transform = `translate(${x}px, ${y}px) rotateX(${rot}deg)`;
     });
-
-    // デバッグ表示（確認できたら消してOK）
-    let dbg = document.getElementById('tilt-debug');
-    if (!dbg) {
-      dbg = document.createElement('div');
-      dbg.id = 'tilt-debug';
-      dbg.style.cssText =
-        'position:fixed;left:10px;bottom:10px;font-size:12px;z-index:9999;' +
-        'color:#666;background:rgba(255,255,255,.7);padding:6px 8px;border-radius:8px;';
-      document.body.appendChild(dbg);
-    }
-    dbg.textContent = `beta:${beta.toFixed(1)} gamma:${gamma.toFixed(1)}`;
   }
+
+  let baseBeta = null;
+
+  window.addEventListener('deviceorientation', (e) => {
+    if (e.beta == null || e.gamma == null) return;
+
+    if (baseBeta === null) baseBeta = e.beta;
+
+    const beta = e.beta - baseBeta;   // 相対値にする
+    const gamma = e.gamma;
+
+    applyTilt(beta, gamma);
+  }, { passive: true });
 
   function start() {
     window.addEventListener('deviceorientation', (e) => {
