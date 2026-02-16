@@ -77,45 +77,5 @@ permalink: /
 
     applyTilt(beta, gamma);
   }, { passive: true });
-
-  function start() {
-    window.addEventListener('deviceorientation', (e) => {
-      if (e.beta == null || e.gamma == null) return;
-      applyTilt(e.beta, e.gamma);
-    }, { passive: true });
-  }
-
-  const needsPermission =
-    typeof DeviceOrientationEvent !== 'undefined' &&
-    typeof DeviceOrientationEvent.requestPermission === 'function';
-
-  if (needsPermission) {
-    const btn = document.createElement('button');
-    btn.textContent = 'tilt on';
-    btn.style.cssText = `
-      position: fixed; right: 12px; bottom: 12px; z-index: 9999;
-      font-size: 12px; padding: 8px 10px; border-radius: 999px;
-      border: 1px solid rgba(0,0,0,.15); background: rgba(255,255,255,.85);
-      color: #333;
-    `;
-    document.body.appendChild(btn);
-
-    btn.addEventListener('click', async () => {
-      try {
-        const res = await DeviceOrientationEvent.requestPermission();
-        if (res === 'granted') {
-          start();
-          btn.remove();
-        } else {
-          btn.textContent = 'tilt off';
-        }
-      } catch (err) {
-        btn.textContent = 'tilt error';
-        console.log(err);
-      }
-    });
-  } else {
-    start();
-  }
 })();
 </script>
