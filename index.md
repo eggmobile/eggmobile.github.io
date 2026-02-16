@@ -54,11 +54,12 @@ if (window.DeviceOrientationEvent) {
     const gamma = e.gamma || 0; // 左右
     const beta = e.beta || 0;   // 前後
 
-    const x = Math.max(-10, Math.min(10, gamma)) * 0.4;
-    const y = Math.max(-10, Math.min(10, beta)) * 0.2;
+    const x = Math.max(-10, Math.min(10, gamma)) * 0.4 * 10;
+    const y = Math.max(-10, Math.min(10, beta)) * 0.2 * 10;
 
     document.querySelectorAll('.tilt').forEach(el => {
       el.style.transform = `translate(${x}px, ${y}px)`;
+      el.style.boxShadow = `${-x}px ${-y}px 20px rgba(0,0,0,0.08)`;
     });
   });
 }
