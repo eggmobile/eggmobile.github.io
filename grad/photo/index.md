@@ -15,8 +15,6 @@ nav_exclude: true
 <br>
 <img class="top-img" src="/assets/images/grad/photo/grad_photo_02.jpg" alt="展示会の様子">
 <br>
-<img class="top-img" src="/assets/images/grad/photo/grad_photo_app.jpg" alt="モバイルアプリ">
-<br>
 <br>
 <p>
   2024年12月6日・7日に千葉県で「うつ病をもっと身近に」というタイトルの写真展を開催しました。
