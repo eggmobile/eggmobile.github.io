@@ -1,5 +1,5 @@
 title: eggmobile
-description: 制作物のアーカイブサイト
+description: 制作物のアーカイブ
 theme: minima
 timezone: Asia/Tokyo
 permalink: /:year/:month/:day/:title/

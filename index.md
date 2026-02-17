@@ -1,6 +1,7 @@
 ---
 layout: default
 title: eggmobile
+description: 制作物のアーカイブサイト
 permalink: /
 ---
 
