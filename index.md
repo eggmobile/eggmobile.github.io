@@ -7,7 +7,7 @@ permalink: /
 
 <div class="home-intro">
   <h1 class="home-title">eggmobile</h1>
-  <p class="home-subtitle">Works archive by Murayama Yoichi</p>
+  <p class="home-subtitle">Murayama Yoichi の作品アーカイブ</p>
 </div>
 
 <ul class="area-grid">
