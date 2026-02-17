@@ -20,7 +20,7 @@ Sneaker monsters of スニーカー星人
 
 {% if pngs and pngs.size > 0 %}
   {% assign sorted = pngs | sort: "path" | reverse %}
-  <ul class="archive-grid">
+  <ul class="archive-grid sneakers">
     {% for f in sorted %}
       <li class="archive-item">
         <img class="archive-img" src="{{ f.path | relative_url }}" alt="sneaker monster">

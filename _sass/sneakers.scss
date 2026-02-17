@@ -1,0 +1,9 @@
+/* Archive */
+.archive-grid.sneakers {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+  gap: 24px 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
