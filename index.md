@@ -21,7 +21,7 @@ permalink: /
 
   <li class="area-item">
     <a class="area-card" href="/sneakers/">
-      <img class="area-img" src="/assets/images/cover/sneakers.jpg" alt="Sneaker Works">
+      <img class="area-img" src="/assets/images/cover/sneakers.png" alt="Sneaker Works">
       <div class="area-label">スニーカー星人 (2024 ~ )</div>
     </a>
   </li>
