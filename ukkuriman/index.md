@@ -5,7 +5,9 @@ permalink: /ukkuriman/
 ---
 
 <ul class="archive-grid">
-  {% assign posts = site.tags.ukkuriman | sort: "date" | reverse %}
+  {% assign pages_in_dir = site.pages | where_exp: "p", "p.path contains 'ukkuriman/'" %}
+  {% assign pages_filtered = pages_in_dir | where_exp: "p", "p.name != 'index.md'" %}
+  {% assign posts = pages_filtered | sort: "date" | reverse %}
   {% for post in posts %}
     <li class="archive-item">
       {% if post.thumbnail %}

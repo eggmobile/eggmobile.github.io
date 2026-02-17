@@ -4,7 +4,9 @@ title: "Tシャツ"
 permalink: /apparel/
 ---
 
-{% assign posts = site.tags.apparel %}
+{% assign pages_in_dir = site.pages | where_exp: "p", "p.path contains 'apparel/'" %}
+{% assign pages_filtered = pages_in_dir | where_exp: "p", "p.name != 'index.md'" %}
+{% assign posts = pages_filtered %}
 
 {% if posts %}
 <ul class="archive-grid">
