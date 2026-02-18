@@ -30,7 +30,7 @@ permalink: /
   <li class="area-item">
     <a class="area-card" href="/apparel/">
       <img class="area-img" src="/assets/images/cover/apparel.jpg" alt="Apparel">
-      <div class="area-label">Tシャツ (2025)</div>
+      <div class="area-label">アパレル (2025 ~ )</div>
     </a>
   </li>
 

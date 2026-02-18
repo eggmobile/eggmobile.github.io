@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tシャツ"
+title: "アパレル"
 permalink: /apparel/
 ---
 
