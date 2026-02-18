@@ -67,6 +67,10 @@ a:visited {
   color: #222;
 }
 
+a:visited:hover {
+  color: rgb(210, 120, 17);
+}
+
 .archive-thumb {
   display: inline-block;
   text-decoration: none;
