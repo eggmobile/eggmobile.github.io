@@ -4,20 +4,20 @@ title: "アプリ開発"
 permalink: /apps/
 ---
 
-{% assign posts = site.tags.apps %}
+{% assign pages = site.pages | where_exp: "item", "item.tags contains 'apps'" %}
 
-{% if posts %}
+{% if pages %}
 <ul class="archive-grid">
-  {% assign posts_sorted = posts | sort: "date" | reverse %}
-  {% for post in posts_sorted %}
+  {% assign pages_sorted = pages | sort: "date" | reverse %}
+  {% for page in pages_sorted %}
     <li class="archive-item">
-      {% if post.thumbnail %}
-        <a class="archive-thumb" href="{{ post.url | relative_url }}">
-          <img class="archive-img" src="{{ post.thumbnail | relative_url }}" alt="{{ post.title | escape }}">
+      {% if page.thumbnail %}
+        <a class="archive-thumb" href="{{ page.link }}">
+          <img class="archive-img" src="{{ page.thumbnail | relative_url }}" alt="{{ page.title | escape }}">
         </a>
       {% endif %}
-      <a class="archive-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <small class="archive-date">{{ post.date | date: "%Y-%m-%d" }}</small>
+      <a class="archive-title" href="{{ page.link }}">{{ page.title }}</a>
+      <small class="archive-date">{{ page.date | date: "%Y-%m-%d" }}</small>
     </li>
   {% endfor %}
 </ul>
