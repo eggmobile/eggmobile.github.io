@@ -4,25 +4,46 @@ title: About
 permalink: /about/
 ---
 
-# About
+## About
 
-## Murayama Yoichi  
-Graphic Designer / System Consultant  
-  
-Murayama Yoichi is a Japan-based graphic designer and system consultant whose work explores the intersection of visual communication, everyday objects, and personal experience. His projects span graphic design, illustration, photography, software, and physical devices.
+Murayama Yoichi is a graphic designer and visual creator based in Japan.  
+He is currently studying Graphic Design at Kyoto University of the Arts (distance program).
 
-Currently studying Graphic Design at Kyoto University of the Arts (Correspondence Course), he develops multidisciplinary works that combine conceptual thinking with practical engineering.
+His work explores themes of distance, perception, and the relationship between personal experience and visual expression.  
+Recent projects combine photography, narrative writing, and interactive physical devices.
 
-Based in: Japan  
-Fields: Graphic Design / Illustration / Photography / Software / Interactive Devices  
+A major focus of his current practice is the visualization of mental health—especially depression—through approachable and accessible forms.  
+By blending playful design with serious themes, he aims to create works that allow viewers to engage with difficult subjects without intimidation.
+
+In addition to visual works, he also develops small software tools and experimental devices as part of his creative process.
+
+---
+
+### Areas of Interest
+
+- Graphic Design  
+- Photography  
+- Interactive Devices / Physical Computing  
+- Narrative & Experimental Typography  
+- Mental Health Representation  
+
+---
+
+### Location
+
+Japan
 
 ---
 
 ## Contact
 
-Instagram: https://instagram.com/eggmobile  
-X: https://x.com/eggmobile  
-Website: https://eggmobile.jp  
+For inquiries, please use the 
+<a href="/contact/" class="contact-link">contact form</a>.
+
+Alternatively, you can reach me via social media.
+
+Instagram: <a href="https://instagram.com/eggmobile" class="contact-link">@eggmobile</a>  
+X: <a href="https://x.com/eggmobile" class="contact-link">@eggmobile</a>  
 
 ---
 
