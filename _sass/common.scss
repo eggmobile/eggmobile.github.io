@@ -3,9 +3,7 @@ body {
   color: #333;
 }
 
-.site-header {
-  border-top: 5px solid #f80;
-}
+.site-header { border-top: 5px solid #f80; }
 
 /* Archive */
 .archive-grid {
@@ -26,7 +24,7 @@ body {
 
 .archive-item a:hover img {
   transform: translateY(-4px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 .archive-date { 
@@ -55,7 +53,7 @@ body {
 
 a {
   color: #333;
-  text-decoration: uone;
+  text-decoration: none;
 }
 
 a:hover {
