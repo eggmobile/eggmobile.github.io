@@ -7,6 +7,7 @@ credit:
   title: Notice of Leave Without a Name
   year: 2025
   medium: Artist's book (A6, 130 pages)
+  statement: A typographic narrative novel about a mysterious anonymous leave request and workplace reality.
 ---
 
 <p>

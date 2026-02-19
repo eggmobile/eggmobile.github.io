@@ -7,6 +7,7 @@ credit:
   title: Near Depression
   year: 2025
   medium: Photography and interactive installation
+  statement: A photography exhibition exploring the invisibility and social distance surrounding depression.
 ---
 <p>
   写真展では、ぼかし表現を用いて<br>

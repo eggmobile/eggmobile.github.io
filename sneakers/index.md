@@ -7,6 +7,14 @@ credit:
   year: 2024–
   medium: Acrylic paintings, Digital illustrations
   tools: Acrylic paint, Illustrator, Photoshop
+  statement: "A series of fictional beings modeled after sneakers, depicted as alien life forms inhabiting the same planet.  <br>
+While playful and humorous on the surface, the work reflects the absurdity and violence inherent in human conflict.<br>
+<br>
+Different species — such as sneaker-based and sandal-based creatures — coexist in a fragile state of tension, mirroring tribal divisions and irrational hostilities found in society.  <br>
+Their exaggerated designs and cartoon-like appearance contrast with the brutality of their imagined world, creating a dissonance between innocence and aggression.<br>
+<br>
+The series began as a daily drawing practice and has expanded into paintings, printed matter, and character-based works.  <br>
+Through repetition and accumulation, it explores how familiar objects can become carriers of narrative, identity, and collective behavior."
 ---
 
 {% comment %}

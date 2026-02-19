@@ -1,24 +1,47 @@
 {% assign credit = page.credit %}
+{% if credit %}
 <div class="credit">
+
+  {% if credit.statement and credit.statement != empty %}
+  <div class="credit-item">
+    <span class="credit-label">Statement</span>
+    <span class="credit-value">{{ credit.statement }}</span>
+  </div>
+  {% endif %}
+
+  {% if credit.title and credit.title != empty %}
   <div class="credit-item">
     <span class="credit-label">Title</span>
     <span class="credit-value">{{ credit.title }}</span>
   </div>
+  {% endif %}
 
+  {% if credit.year and credit.year != empty %}
   <div class="credit-item">
     <span class="credit-label">Year</span>
     <span class="credit-value">{{ credit.year }}</span>
   </div>
+  {% endif %}
 
+  {% if credit.medium and credit.medium != empty %}
   <div class="credit-item">
     <span class="credit-label">Medium</span>
     <span class="credit-value">{{ credit.medium }}</span>
   </div>
+  {% endif %}
 
-  {% if credit.tools and credit.tools != "" %}
+  {% if credit.tools and credit.tools != empty %}
   <div class="credit-item">
     <span class="credit-label">Tools</span>
-    <span class="credit-value">{{ credit.tools }}</span>
+    <span class="credit-value">
+      {% if credit.tools.size %}
+      {{ credit.tools | join: ", " }}
+      {% else %}
+      {{ credit.tools }}
+      {% endif %}
+    </span>
   </div>
   {% endif %}
+
 </div>
+{% endif %}

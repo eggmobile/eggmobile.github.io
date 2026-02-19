@@ -7,6 +7,7 @@ credit:
   title: Voice Printer with Temperature-Sensitive Text
   year: 2025
   medium: Interactive installation (mixed media, LEGO, Raspberry Pi, thermal printer, temperature sensor)
+  statement: A voice printer that outputs text whose readability changes with ambient temperature.
 ---
 <p>
   デバイスでは、あなたの言葉を<br>
