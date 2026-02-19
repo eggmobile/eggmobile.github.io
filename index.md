@@ -8,7 +8,6 @@ permalink: /
 <div class="home-intro">
   <h1 class="home-title">eggmobile</h1>
   <p class="home-subtitle">Visual Works by Murayama Yoichi</p>
-  <p class="home-subtitle--ja">Murayama Yoichi の作品アーカイブ</p>
   <p class="home-meta">Graphic designer exploring distance, perception, and mental health
 through photography, narrative, and physical computing.</p>
 </div>
