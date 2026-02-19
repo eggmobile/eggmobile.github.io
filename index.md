@@ -48,3 +48,11 @@ permalink: /
     </a>
   </li>
 </ul>
+
+<hr class="about">
+<div class="area-item about">
+  <a class="area-card" href="/about/">
+    <img class="area-img" src="/assets/images/cover/about.jpg" alt="About">
+    <div class="area-label">About</div>
+  </a>
+</div>
