@@ -7,14 +7,9 @@ permalink: /
 
 <div class="home-intro">
   <h1 class="home-title">eggmobile</h1>
-  <p class="home-subtitle">Murayama Yoichi の作品アーカイブ</p>
+  <p class="home-subtitle">Visual Works by Murayama Yoichi</p>
+  <p class="home-subtitle--ja">Murayama Yoichi の作品アーカイブ</p>
   <p class="home-meta">Graphic Design / Photography / Illustration / Software / Devices</p>
-</div>
-
-<div class="home-featured">
-  <p class="home-featured__label">Featured</p>
-  <p class="home-featured__title"><a href="/grad/">卒業制作（2026）</a></p>
-  <p class="home-featured__desc">写真展・小説・デバイスの三作品による卒業制作アーカイブ</p>
 </div>
 
 <ul class="area-grid">

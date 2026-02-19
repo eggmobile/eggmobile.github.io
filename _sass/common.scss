@@ -155,29 +155,18 @@ hr.about {
   color: #777;
 }
 
-.home-featured {
-  margin: 28px 0 8px;
-}
-
-.home-featured__label {
-  font-size: 0.85rem;
-  color: #777;
-  margin: 0 0 6px;
-}
-
-.home-featured__title {
-  margin: 0 0 6px;
-  font-size: 1.05rem;
-}
-
-.home-featured__desc {
-  margin: 0;
-  color: #777;
-  font-size: 0.9rem;
-}
-
 hr.home-sep {
   margin: 40px 0;
   border: 0;
   border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+.home-subtitle--ja,
+.home-featured__desc--ja {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.home-intro {
+  margin-bottom: 40px;
 }
