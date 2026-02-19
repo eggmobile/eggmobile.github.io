@@ -3,6 +3,10 @@ layout: page
 title: "写真展"
 permalink: /grad/photo/
 nav_exclude: true
+credit:
+  title: Near Depression
+  year: 2025
+  medium: Photography and interactive installation
 ---
 <p>
   写真展では、ぼかし表現を用いて<br>
@@ -26,6 +30,7 @@ nav_exclude: true
   本展示は、社会とうつ病のあいだに存在する見えない距離を可視化する試みです。
 </p>
 <br>
+{% include credit.html %}
 <br>
 <hr>
 <br>

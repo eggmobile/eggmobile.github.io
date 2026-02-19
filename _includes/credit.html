@@ -1,0 +1,24 @@
+{% assign credit = page.credit %}
+<div class="credit">
+  <div class="credit-item">
+    <span class="credit-label">Title</span>
+    <span class="credit-value">{{ credit.title }}</span>
+  </div>
+
+  <div class="credit-item">
+    <span class="credit-label">Year</span>
+    <span class="credit-value">{{ credit.year }}</span>
+  </div>
+
+  <div class="credit-item">
+    <span class="credit-label">Medium</span>
+    <span class="credit-value">{{ credit.medium }}</span>
+  </div>
+
+  {% if credit.tools and credit.tools != "" %}
+  <div class="credit-item">
+    <span class="credit-label">Tools</span>
+    <span class="credit-value">{{ credit.tools }}</span>
+  </div>
+  {% endif %}
+</div>

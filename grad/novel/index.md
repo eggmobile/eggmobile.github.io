@@ -3,6 +3,10 @@ layout: page
 title: "小説"
 permalink: /grad/novel/
 nav_exclude: true
+credit:
+  title: Notice of Leave Without a Name
+  year: 2025
+  medium: Artist's book (A6, 130 pages)
 ---
 
 <p>
@@ -22,6 +26,9 @@ nav_exclude: true
 <p>
   本作は、うつ病と個人との距離を可視化する試みです。
 </p>
+<br>
+{% include credit.html %}
+<br>
 <hr>
 <br>
 <p>卒展での様子</p>

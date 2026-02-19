@@ -3,6 +3,10 @@ layout: page
 title: "デバイス"
 permalink: /grad/device/
 nav_exclude: true
+credit:
+  title: Voice Printer with Temperature-Sensitive Text
+  year: 2025
+  medium: Interactive installation (mixed media, LEGO, Raspberry Pi, thermal printer, temperature sensor)
 ---
 <p>
   デバイスでは、あなたの言葉を<br>
@@ -23,6 +27,8 @@ nav_exclude: true
 <p>
   本デバイスは、うつ病と他者との距離を身体的な感覚を通して可視化する試みです。
 </p>
+<br>
+{% include credit.html %}
 <br>
 <hr>
 <br>

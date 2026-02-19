@@ -1,4 +1,4 @@
-/ * =========================================================
+/*=========================================================
    Base
    ========================================================= */
 
@@ -192,4 +192,34 @@ hr.home-sep {
   margin: 40px 0;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* =========================================================
+   Credit
+   ========================================================= */
+
+
+.credit {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e5e5;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  color: #555;
+}
+
+.credit-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.credit-label {
+  width: 80px;
+  color: #888;
+  font-weight: 500;
+}
+
+.credit-value {
+  color: #222;
 }
