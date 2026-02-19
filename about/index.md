@@ -39,7 +39,7 @@ Tokyo, Japan
 
 ## Contact
 
-For inquiries, please use the <a class="contact-link" href="{{ '/contact/' | relative_url }})">contact form</a>.  
+For inquiries, please use the <a class="contact-link" href="{{ '/contact/' | relative_url }}">contact form</a>.  
   
 Alternatively, you can reach me via social media.  
 Instagram: <a href="https://instagram.com/eggmobile" class="contact-link">@eggmobile</a>  
