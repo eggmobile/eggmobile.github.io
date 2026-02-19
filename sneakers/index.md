@@ -2,6 +2,11 @@
 layout: page
 title: "スニーカー星人"
 permalink: /sneakers/
+credit:
+  title: Sneaker Monsters
+  year: 2024–
+  medium: Acrylic paintings, Digital illustrations
+  tools: Acrylic paint, Illustrator, Photoshop
 ---
 
 {% comment %}
@@ -30,3 +35,5 @@ Sneaker monsters of スニーカー星人
 {% else %}
   <p>Coming soon.</p>
 {% endif %}
+
+{% include credit.html %}

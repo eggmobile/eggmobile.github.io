@@ -2,6 +2,11 @@
 layout: page
 title: "うっクリマン"
 permalink: /ukkuriman/
+credit:
+  title: Ukkuriman Sticker Collection
+  year: 2025
+  medium: Sticker illustrations, Digital graphics
+  tools: Illustrator, Photoshop
 ---
 
 <ul class="archive-grid">
@@ -20,3 +25,6 @@ permalink: /ukkuriman/
     </li>
   {% endfor %}
 </ul>
+
+
+{% include credit.html %}
