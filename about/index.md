@@ -6,16 +6,18 @@ permalink: /about/
 
 ## About
 
-Murayama Yoichi is a graphic designer and visual creator based in Japan.  
+Murayama Yoichi is a graphic designer and visual creator based in Tokyo, Japan.  
 He is currently studying Graphic Design at Kyoto University of the Arts (distance program).
 
-His work explores themes of distance, perception, and the relationship between personal experience and visual expression.  
-Recent projects combine photography, narrative writing, and interactive physical devices.
+His practice explores distance, perception, and the relationship between personal experience and visual expression.  
+Recent works combine photography, narrative writing, typography, and interactive physical devices to create quiet but emotionally resonant experiences.
 
-A major focus of his current practice is the visualization of mental health—especially depression—through approachable and accessible forms.  
-By blending playful design with serious themes, he aims to create works that allow viewers to engage with difficult subjects without intimidation.
+A central focus of his current work is the visualization of mental health—especially depression—through approachable, non‑threatening forms.  
+By blending playful aesthetics with serious subject matter, he aims to create works that invite engagement rather than avoidance.
 
-In addition to visual works, he also develops small software tools and experimental devices as part of his creative process.
+Alongside visual projects, he develops small software tools and experimental devices as part of an expanded design practice that bridges digital and physical media.
+
+Available for exhibitions, collaborations, and design commissions.
 
 ---
 
@@ -31,14 +33,13 @@ In addition to visual works, he also develops small software tools and experimen
 
 ### Location
 
-Japan
+Tokyo, Japan
 
 ---
 
 ## Contact
 
-For inquiries, please use the 
-<a href="/contact/" class="contact-link">contact form</a>.
+For inquiries, please use the [contact form]({{ '/contact/' | relative_url }}).
 
 Alternatively, you can reach me via social media.
 
@@ -50,11 +51,11 @@ X: <a href="https://x.com/eggmobile" class="contact-link">@eggmobile</a>
 ## Tools
 
 Illustrator / Photoshop  
-React Native / Swift UI / Raspberry Pi  
+React Native / SwiftUI / Raspberry Pi  
 Generative AI tools  
 
 ---
 
 ## Note
 
-This site serves as an archive of selected works and ongoing projects.
+This site serves as a curated archive of selected works and ongoing projects.
