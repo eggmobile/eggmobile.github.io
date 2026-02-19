@@ -1,56 +1,17 @@
+/ * =========================================================
+   Base
+   ========================================================= */
+
 body {
   background-color: #f2f2f2;
   color: #333;
 }
 
-.site-header { border-top: 5px solid #f80; }
-
-/* Archive */
-.archive-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 40px 24px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.site-header {
+  border-top: 5px solid #f80;
 }
 
-.archive-img { 
-  width: 200px;
-  display: block;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  border-radius: 4px;
-}
-
-.archive-item a:hover img {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-}
-
-.archive-date { 
-  display: block;
-  color: #777;
-  font-size: 0.75rem; 
-}
-
-/* Archive link styling */
-.archive-title {
-  display: inline-block;
-  color: #222;
-  text-decoration: none;
-  font-weight: 600;
-  width: 200px;
-}
-
-.archive-title:hover {
-  color: #f80;
-  text-decoration: underline;
-}
-
-.archive-title:visited {
-  color: #222;
-}
-
+/* Global links */
 a {
   color: #333;
   text-decoration: none;
@@ -69,43 +30,100 @@ a:visited:hover {
   color: rgb(210, 120, 17);
 }
 
+.site-footer .p-name {
+  display: none;
+}
+
+/* =========================================================
+   Archive (posts / works list)
+   ========================================================= */
+
+.archive-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 40px 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.archive-img {
+  width: 200px;
+  display: block;
+  border-radius: 4px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.archive-item a:hover img {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.archive-title {
+  display: inline-block;
+  width: 200px;
+  color: #222;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.archive-title:hover {
+  color: #f80;
+  text-decoration: underline;
+}
+
+.archive-title:visited {
+  color: #222;
+}
+
+.archive-date {
+  display: block;
+  font-size: 0.75rem;
+  color: #777;
+}
+
 .archive-thumb {
   display: inline-block;
   text-decoration: none;
 }
 
-.site-footer .p-name {
-  display: none;
-}
+/* =========================================================
+   Area grid (top page categories)
+   ========================================================= */
 
 .area-grid {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 32px 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.area-item { margin: 0; }
+.area-item {
+  margin: 0;
+}
+
+.area-item.about {
+  width: 120px;
+}
 
 .area-card {
   display: block;
+  color: #222;
   text-decoration: none;
+}
+
+.area-card:visited {
   color: #222;
 }
 
-.area-card:visited { color: #222; }
-
 .area-img {
+  display: block;
   width: 100%;
   height: auto;
-  display: block;
   border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
 .area-label {
@@ -113,6 +131,10 @@ a:visited:hover {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
+
+/* =========================================================
+   Breadcrumb
+   ========================================================= */
 
 .breadcrumb {
   margin-bottom: 40px;
@@ -133,18 +155,25 @@ a:visited:hover {
   color: #222;
 }
 
-.area-item.about {
-  width: 120px;
-}
+/* =========================================================
+   About / separators
+   ========================================================= */
 
 hr.about {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px 0;
   border: 1px solid #e0e0e0;
 }
 
 .contact-link {
   text-decoration: underline;
+}
+
+/* =========================================================
+   Home intro / meta
+   ========================================================= */
+
+.home-intro {
+  margin-bottom: 40px;
 }
 
 .home-meta {
@@ -153,18 +182,14 @@ hr.about {
   color: #777;
 }
 
-hr.home-sep {
-  margin: 40px 0;
-  border: 0;
-  border-top: 1px solid rgba(0,0,0,0.08);
-}
-
 .home-subtitle--ja,
 .home-featured__desc--ja {
   font-size: 0.9rem;
   color: #777;
 }
 
-.home-intro {
-  margin-bottom: 40px;
+hr.home-sep {
+  margin: 40px 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
