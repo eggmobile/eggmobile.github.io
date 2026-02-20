@@ -49,6 +49,14 @@ through photography, narrative, and physical computing.</p>
       <div class="area-label">アプリ開発 (2025)</div>
     </a>
   </li>
+
+  <li class="area-item">
+    <a class="area-card" href="/notes/">
+      <img class="area-img" src="/assets/images/cover/notes.jpg" alt="Notes">
+      <div class="area-label">Notes (2026)</div>
+    </a>
+  </li>
+
 </ul>
 
 <hr class="home-sep">
