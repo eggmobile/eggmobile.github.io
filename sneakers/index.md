@@ -27,7 +27,7 @@ Through repetition and accumulation, it explores how familiar objects can become
 {% endcomment %}
 
 {% assign files = site.static_files | where_exp: "f", "f.path contains '/assets/images/sneaker_monsters/'" %}
-{% assign pngs = files | where_exp: "f", "f.extname == '.png'" %}
+{% assign pngs = files | here_exp: "f", "f.path contains '/assets/images/sneaker_monsters/'" %}
 
 Sneaker monsters of スニーカー星人
 
