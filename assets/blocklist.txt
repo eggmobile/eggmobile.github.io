@@ -1,1 +1,2 @@
 ||note.com/utadesign^
+||note.com/utadesign/*
