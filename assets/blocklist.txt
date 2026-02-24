@@ -1,3 +1,1 @@
-||note.com/utadesign^
-||note.com/utadesign/*
-note.com
+||note.com^
