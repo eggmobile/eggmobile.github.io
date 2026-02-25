@@ -29,6 +29,10 @@
   border-radius: 4px; /* area-imgと揃える */
 }
 
+.area-img-wrap .top-description {
+  margin-bottom: 20px
+}
+
 /* Cyan */
 .grad-photo .area-card:hover .area-img-wrap::after {
   background: rgba(0, 255, 255, 0.3);
