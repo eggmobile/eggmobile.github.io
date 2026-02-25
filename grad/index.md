@@ -34,7 +34,7 @@ permalink: /grad/
       <li>うつ病である自分と他者との距離</li>
     </ul>
     <p>
-    この三つのレイヤーを、それぞれ写真・小説・デバイスという異なる表現手法で扱っています。  
+    この三つのレイヤーを、それぞれ<a href="/grad/photo/">写真</a>・<a href="/grad/novel/">小説</a>・<a href="/grad/device/">デバイス</a>という異なる表現手法で扱っています。  
     </p>
     <p>
       制作の結果として導かれた結論は、やはりうつ病は「よくわからないものだ」ということでした。<br>
@@ -45,6 +45,8 @@ permalink: /grad/
       ことも、遠ざけすぎることもなく、自分なりの適切な距離を見出すきっかけに
       なればと考えています。  
     </p>
+    <br>
+    <hr>
   </div>
   <ul class="area-grid">
     <li class="area-item grad-photo">
