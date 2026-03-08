@@ -55,6 +55,24 @@ Generative AI tools
 
 ---
 
+## Exhibitions
+
+**2026**  
+Graduation Exhibition, Kyoto University of the Arts, Kyoto
+
+**2025**  
+Solo Exhibition "Depression, Closer to Everyday Life", Zennikkei Hall (Zennikkei Hall), Ichikawa, Chiba, Japan  
+December 6–7, 2025
+
+---
+
+## Awards
+
+**2026**  
+Course Encouragement Award, Graduation Exhibition, Kyoto University of the Arts
+
+---
+
 ## Note
 
 This site serves as a curated archive of selected works and ongoing projects.
