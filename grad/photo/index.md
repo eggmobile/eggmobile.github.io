@@ -4,7 +4,7 @@ title: "写真展"
 permalink: /grad/photo/
 nav_exclude: true
 credit:
-  title: Near Depression
+  title: Depression, Closer to Everyday Life
   year: 2025
   medium: Photography and interactive installation
   statement: A photography exhibition exploring the invisibility and social distance surrounding depression.
