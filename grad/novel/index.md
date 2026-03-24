@@ -32,23 +32,4 @@ credit:
 <br>
 <hr>
 <br>
-<p>卒展での様子</p>
-{% assign posts = site.tags.grad_novel %}
-{% if posts %}
-  {% assign posts_sorted = posts | sort: "date" | reverse %}
-  <ul class="archive-grid">
-    {% for post in posts_sorted %}
-      <li class="archive-item">
-        {% if post.thumbnail %}
-          <a class="archive-thumb" href="{{ post.url | relative_url }}">
-            <img class="archive-img" src="{{ post.thumbnail | relative_url }}" alt="{{ post.title | escape }}">
-          </a>
-        {% endif %}
-        <a class="archive-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <small class="archive-date">{{ post.date | date: "%Y-%m-%d" }}</small>
-      </li>
-    {% endfor %}
-  </ul>
-{% else %}
-  <p>Coming soon.</p>
-{% endif %}
+<p>小説の内容が気になる。読んでみたい。という奇特な方は、<a class="contact-link" href="{{ '/contact/' | relative_url }}">Contact Form</a> よりご連絡ください。</p>
