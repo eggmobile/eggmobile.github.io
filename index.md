@@ -13,14 +13,6 @@ through photography, narrative, and physical computing.</p>
 </div>
 
 <ul class="area-grid">
-  <li class="area-item">
-    <a class="area-card" href="/grad/">
-      <img class="area-img" src="/assets/images/cover/grad.jpg" alt="Graduation Project">
-      <div class="area-label">
-        卒業制作<br>京都芸術大学 通信教育部<br>グラフィックデザインコース (2026)
-      </div>
-    </a>
-  </li>
 
   <li class="area-item">
     <a class="area-card" href="/sneakers/">
@@ -33,6 +25,15 @@ through photography, narrative, and physical computing.</p>
     <a class="area-card" href="/apparel/">
       <img class="area-img" src="/assets/images/cover/apparel.jpg" alt="Apparel">
       <div class="area-label">アパレル (2025 ~ )</div>
+    </a>
+  </li>
+
+  <li class="area-item">
+    <a class="area-card" href="/grad/">
+      <img class="area-img" src="/assets/images/cover/grad.jpg" alt="Graduation Project">
+      <div class="area-label">
+        卒業制作<br>京都芸術大学 通信教育部<br>グラフィックデザインコース (2026)
+      </div>
     </a>
   </li>
 
