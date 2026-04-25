@@ -7,6 +7,7 @@ instagram_username: eggmobile
 twitter_username: eggmobile
 github_username: eggmobile
 header_pages:
+  - exhibitions/index.md
   - sneakers/index.md
   - apparel/index.md
   - grad/index.md

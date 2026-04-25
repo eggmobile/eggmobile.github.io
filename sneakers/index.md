@@ -3,7 +3,7 @@ layout: page
 title: "スニーカー星人"
 permalink: /sneakers/
 credit:
-  title: Sneaker Monsters
+  title: Sneaker Aliens
   year: 2024–
   medium: Acrylic paintings, Digital illustrations
   tools: Acrylic paint, Illustrator, Photoshop
@@ -19,24 +19,24 @@ Through repetition and accumulation, it explores how familiar objects can become
 
 {% comment %}
   Place your 256px PNGs here:
-  assets/images/sneaker_monsters/
+  assets/images/sneaker-aliens/
 
   Expected file name format (lexicographically sortable):
   sneaker_monster_YYYY-MM-DD-HHmm.png
   or sneaker_monster_YYYY-MM-DD-HHmm_2.png etc.
 {% endcomment %}
 
-{% assign files = site.static_files | where_exp: "f", "f.path contains '/assets/images/sneaker_monsters/'" %}
-{% assign pngs = files | here_exp: "f", "f.path contains '/assets/images/sneaker_monsters/'" %}
+{% assign files = site.static_files | where_exp: "f", "f.path contains '/assets/images/sneaker-aliens/'" %}
+{% assign pngs = files | here_exp: "f", "f.path contains '/assets/images/sneaker-aliens/'" %}
 
-Sneaker monsters of スニーカー星人
+Sneaker Aliens of スニーカー星人
 
 {% if pngs and pngs.size > 0 %}
   {% assign sorted = pngs | sort: "path" | reverse %}
   <ul class="archive-grid sneakers">
     {% for f in sorted %}
       <li class="archive-item">
-        <img class="archive-img" src="{{ f.path | relative_url }}" alt="sneaker monster">
+        <img class="archive-img" src="{{ f.path | relative_url }}" alt="Sneaker Alien">
       </li>
     {% endfor %}
   </ul>

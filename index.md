@@ -15,6 +15,13 @@ through photography, narrative, and physical computing.</p>
 <ul class="area-grid">
 
   <li class="area-item">
+    <a class="area-card" href="/exhibitions/">
+      <img class="area-img" src="/assets/images/cover/exhibitions.jpg" alt="Exhibitions">
+      <div class="area-label">展示 (2026 ~ )</div>
+    </a>
+  </li>
+
+  <li class="area-item">
     <a class="area-card" href="/sneakers/">
       <img class="area-img" src="/assets/images/cover/sneakers.png" alt="Sneaker Works">
       <div class="area-label">スニーカー星人 (2024 ~ )</div>

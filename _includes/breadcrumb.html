@@ -10,7 +10,9 @@
 
       {% assign label = part %}
 
-      {% if part == 'grad' %}
+      {% if part == 'exhibitions' %}
+        {% assign label = '展示' %}
+      {% elsif part == 'grad' %}
         {% assign label = '卒業制作' %}
       {% elsif part == 'photo' %}
         {% assign label = '写真展' %}

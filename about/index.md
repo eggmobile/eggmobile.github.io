@@ -58,7 +58,11 @@ Generative AI tools
 ## Exhibitions
 
 **2026**  
-Graduation Exhibition, Kyoto University of the Arts, Kyoto
+Sneaker Alien 100, Sainone-An, Tokyo, Japan
+May 27-31, 2026
+
+Graduation Exhibition, Kyoto University of the Arts, Kyoto, Japan
+March 8-15, 2026
 
 **2025**  
 Solo Exhibition "Depression, Closer to Everyday Life", Zennikkei Hall (Zennikkei Hall), Ichikawa, Chiba, Japan  
