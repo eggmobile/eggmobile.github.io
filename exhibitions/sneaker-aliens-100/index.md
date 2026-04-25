@@ -20,5 +20,16 @@ credit:
 
 <img class="top-img" src="/assets/images/exhibitions/sneaker-aliens-100/main.jpg" alt="スニーカー星人100体展">
 
+  
+■ 展示概要  
+	•	展覧会名：スニーカー星人100体展  
+	•	会期：2026年5月27日（水）〜5月31日（日）  
+	•	会場：さいのね庵
+  　　　西荻窪駅北口徒歩 3 分  
+　　　　杉並区西荻北 3 - 31 -13  
+	•	入場：無料  
+	•	展示数：100点（すべて一点物）  
+	•	販売：あり  
+
 <br>
 {% include credit.html %}
