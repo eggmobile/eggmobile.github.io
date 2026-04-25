@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "スニーカー星人100体展"
-permalink: /exhibitions/sneaker-aliens-100
+permalink: /exhibitions/sneaker-aliens-100/
 credit:
   title: 100 Sneaker Aliens Exhibition
   year: 2026

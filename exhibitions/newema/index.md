@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "NEW EMA"
-permalink: /exhibitions/newema
+permalink: /exhibitions/newema/
 ---
 
 WIP
