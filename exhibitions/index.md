@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "展示"
+title: "展覧会"
 permalink: /exhibitions/
 ---
-個展、グループ展など、参加した展示。
+個展、グループ展など、参加した展覧会。
 <div class="grad-main">
   <ul class="area-grid">
     <li class="area-item">
