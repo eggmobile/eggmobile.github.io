@@ -19,6 +19,11 @@ credit:
   
 <img class="top-img" src="/assets/images/exhibitions/newema/ema-right.jpg" alt="自走式絵馬">
 
+<video autoplay loop muted playsinline>
+
+  <source src="/assets/videos/ema.mov" type="video/mp4">
+
+</video>
 
 「NEW EMA 」 -吉見観音奉納絵馬展Ⅱ-  
 会期:2026年5月2日(土)〜5月10日(日)  
