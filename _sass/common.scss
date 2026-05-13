@@ -34,6 +34,13 @@ a:visited:hover {
   display: none;
 }
 
+video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
 /* =========================================================
    Archive (posts / works list)
    ========================================================= */
