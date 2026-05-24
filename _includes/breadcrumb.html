@@ -18,10 +18,18 @@
   {% assign label = '写真展' %}
   {% elsif part == 'device' %}
   {% assign label = 'デバイス' %}
+  {% elsif part == 'devices' %}
+  {% assign label = 'デバイス' %}
   {% elsif part == 'novel' %}
   {% assign label = '小説' %}
   {% elsif part == 'apparel' %}
   {% assign label = 'アパレル' %}
+  {% elsif part == 'sneakers' %}
+  {% assign label = 'スニーカー' %}
+  {% elsif part == 'apps' %}
+  {% assign label = 'アプリ' %}
+  {% elsif part == 'contact' %}
+  {% assign label = 'お問い合わせ' %}
   {% endif %}
 
   {% if forloop.last %}

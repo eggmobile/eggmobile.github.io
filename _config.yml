@@ -8,8 +8,8 @@ twitter_username: eggmobile
 github_username: eggmobile
 header_pages:
   - exhibitions/index.md
+  - devices/index.md
   - sneakers/index.md
   - apparel/index.md
-  - grad/index.md
-  - ukkuriman/index.md
   - apps/index.md
+  - contact/index.md

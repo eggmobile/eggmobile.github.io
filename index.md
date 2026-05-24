@@ -22,6 +22,13 @@ through photography, narrative, and physical computing.</p>
   </li>
 
   <li class="area-item">
+    <a class="area-card" href="/devices/">
+      <img class="area-img" src="/assets/images/cover/devices.png" alt="Devices">
+      <div class="area-label">デバイス (2026 ~ )</div>
+    </a>
+  </li>
+
+  <li class="area-item">
     <a class="area-card" href="/sneakers/">
       <img class="area-img" src="/assets/images/cover/sneakers.png" alt="Sneaker Works">
       <div class="area-label">スニーカー星人 (2024 ~ )</div>
