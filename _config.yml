@@ -13,3 +13,6 @@ header_pages:
   - apparel/index.md
   - apps/index.md
   - contact/index.md
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
