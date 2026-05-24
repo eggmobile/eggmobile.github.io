@@ -58,15 +58,25 @@ Generative AI tools
 ## Exhibitions
 
 **2026**  
-Sneaker Alien 100, Sainone-An, Tokyo, Japan
-May 27-31, 2026
+<a class="contact-link" href="{{ '/exhibitions/sneaker-aliens-100/' | relative_url }}">
+Solo Exhibition "100 Sneaker Aliens Exhibition", Sainone-An, Tokyo, Japan  
+May 27-31, 2026  </a>
 
-Graduation Exhibition, Kyoto University of the Arts, Kyoto, Japan
-March 8-15, 2026
+<a class="contact-link" href="{{ '/exhibitions/newema/' | relative_url }}">
+"NEW EMA" -Yoshimi Kannon Votive Ema Exhibition II- , crank, Saitama, Japan  
+May 2-10, 2026  
+</a>
+  
+<a class="contact-link" href="{{ '/grad/' | relative_url }}">
+Graduation Exhibition, Kyoto University of the Arts, Kyoto, Japan  
+March 8-15, 2026  
+</a>
 
 **2025**  
+<a class="contact-link" href="{{ '/grad/photo/' | relative_url }}">
 Solo Exhibition "Depression, Closer to Everyday Life", Zennikkei Hall (Zennikkei Hall), Ichikawa, Chiba, Japan  
 December 6–7, 2025
+</a>
 
 ---
 
