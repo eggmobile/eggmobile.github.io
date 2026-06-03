@@ -16,7 +16,7 @@ through photography, narrative, and physical computing.</p>
 
   <li class="area-item">
     <a class="area-card" href="/exhibitions/">
-      <img class="area-img" src="/assets/images/cover/exhibitions.jpg" alt="Exhibitions">
+      <img class="area-img" src="/assets/images/cover/exhibitions.png" alt="Exhibitions">
       <div class="area-label">展覧会 (2026 ~ )</div>
     </a>
   </li>
