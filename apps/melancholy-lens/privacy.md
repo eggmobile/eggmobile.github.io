@@ -4,6 +4,7 @@ title: "Melancholy Lens — プライバシーポリシー"
 date: 2025-10-22 00:00:00 +0900
 tags: [design, apps, ios]
 thumbnail: /assets/images/apps/melancholy-lens-thumb.jpg
+permalink: /apps/melancholy-lens/privacy/
 ---
 
 ## Privacy Policy
