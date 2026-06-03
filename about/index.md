@@ -6,7 +6,7 @@ permalink: /about/
 
 ## About
 
-Murayama Yoichi is a graphic designer and visual creator based in Tokyo, Japan.  
+Murayama Yoichi / 村山 庸一 is a graphic designer and visual creator based in Tokyo, Japan.  
 He is currently studying Graphic Design at Kyoto University of the Arts (distance program).
 
 His practice explores distance, perception, and the relationship between personal experience and visual expression.  
@@ -58,25 +58,32 @@ Generative AI tools
 ## Exhibitions
 
 **2026**  
+
+<a class="contact-link" href="{{ '/exhibitions/16peepholes/' | relative_url }}">
+16 Peepholes into a Slightly Different World Tokyo Exhibition of the 2025 Graduation Projects by Volunteer Students from the Graphic Design Course, Correspondence Education, Kyoto University of the Arts</a>  
+Citizen Gallery Meguro Museum of Art, Tokyo, Japan  
+June 2-7, 2026  
+
 <a class="contact-link" href="{{ '/exhibitions/sneaker-aliens-100/' | relative_url }}">
-Solo Exhibition "100 Sneaker Aliens Exhibition", Sainone-An, Tokyo, Japan  
-May 27-31, 2026  </a>
+Solo Exhibition "100 Sneaker Aliens Exhibition"</a>  
+Sainone-An, Tokyo, Japan  
+May 27-31, 2026  
 
 <a class="contact-link" href="{{ '/exhibitions/newema/' | relative_url }}">
-"NEW EMA" -Yoshimi Kannon Votive Ema Exhibition II- , crank, Saitama, Japan  
+"NEW EMA" -Yoshimi Kannon Votive Ema Exhibition II- </a>  
+crank, Saitama, Japan  
 May 2-10, 2026  
-</a>
   
 <a class="contact-link" href="{{ '/grad/' | relative_url }}">
-Graduation Exhibition, Kyoto University of the Arts, Kyoto, Japan  
+Graduation Exhibition</a>  
+Kyoto University of the Arts, Kyoto, Japan  
 March 8-15, 2026  
-</a>
 
 **2025**  
 <a class="contact-link" href="{{ '/grad/photo/' | relative_url }}">
-Solo Exhibition "Depression, Closer to Everyday Life", Zennikkei Hall (Zennikkei Hall), Ichikawa, Chiba, Japan  
+Solo Exhibition "Depression, Closer to Everyday Life"</a>  
+Zennikkei Hall, Ichikawa, Chiba, Japan  
 December 6–7, 2025
-</a>
 
 ---
 
