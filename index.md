@@ -61,7 +61,7 @@ through photography, narrative, and physical computing.</p>
   <li class="area-item">
     <a class="area-card" href="/apps/">
       <img class="area-img" src="/assets/images/cover/apps.jpg" alt="Software">
-      <div class="area-label">アプリ開発 (2025)</div>
+      <div class="area-label">アプリ開発 (2013 ~)</div>
     </a>
   </li>
 
