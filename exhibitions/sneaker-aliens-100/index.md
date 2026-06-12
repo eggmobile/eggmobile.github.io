@@ -33,3 +33,16 @@ credit:
 
 <br>
 {% include credit.html %}
+
+
+<img class="top-img" src="/assets/images/exhibitions/sneaker-aliens-100/green_wall_detail.jpg" alt="スニーカー星人100体展">
+
+<img class="top-img" src="/assets/images/exhibitions/sneaker-aliens-100/wood_wall_detail.jpg" alt="スニーカー星人100体展">
+
+<img class="top-img" src="/assets/images/exhibitions/sneaker-aliens-100/overview_space.jpg" alt="スニーカー星人100体展">
+
+<img class="top-img" src="/assets/images/exhibitions/sneaker-aliens-100/mini_canvas_display.jpg" alt="スニーカー星人100体展">
+
+<img class="top-img" src="/assets/images/exhibitions/sneaker-aliens-100/children_viewing_catalog.jpg" alt="スニーカー星人100体展">
+
+<img class="top-img" src="/assets/images/exhibitions/sneaker-aliens-100/pink_wall_detail.jpg" alt="スニーカー星人100体展">

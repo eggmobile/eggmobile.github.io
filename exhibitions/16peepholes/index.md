@@ -18,3 +18,15 @@ credit:
 
 <br>
 {% include credit.html %}
+
+<img class="top-img" src="/assets/images/exhibitions/16peepholes/01_poster_exterior.jpg" alt="距離を通してうつ病を見る">
+
+<img class="top-img" src="/assets/images/exhibitions/16peepholes/02_main_installation.jpg" alt="設営">
+
+<img class="top-img" src="/assets/images/exhibitions/16peepholes/03_installation_closeup.jpg" alt="ポスター">
+
+<img class="top-img" src="/assets/images/exhibitions/16peepholes/04_gallery_view.jpg" alt="当日の様子">
+
+<img class="top-img" src="/assets/images/exhibitions/16peepholes/05_visitor_view.jpg" alt="当日の様子">
+
+<img class="top-img" src="/assets/images/exhibitions/16peepholes/06_closing_board.jpg" alt="お花">
