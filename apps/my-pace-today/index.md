@@ -5,7 +5,7 @@ date: 2026-06-26 18:28:00 +0900
 tags: [design, apps, ios]
 thumbnail: /assets/images/apps/my-pace-today-thumb.jpg
 link: https://apps.apple.com/jp/app/idXXXXXXXXXX
-permalink: /apps/pacience-counter/
+permalink: /apps/my-pace-today/
 archive: true
 ---
 
