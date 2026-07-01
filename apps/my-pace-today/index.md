@@ -4,7 +4,7 @@ title: "今日のあなたのペース"
 date: 2026-06-26 18:28:00 +0900
 tags: [design, apps, ios]
 thumbnail: /assets/images/apps/my-pace-today-thumb.jpg
-link: https://apps.apple.com/jp/app/idXXXXXXXXXX
+link: https://apps.apple.com/us/app/mypacetoday/id6784543538
 permalink: /apps/my-pace-today/
 archive: true
 ---
