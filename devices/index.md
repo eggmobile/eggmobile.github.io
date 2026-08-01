@@ -16,6 +16,16 @@ permalink: /devices/
         </div>
       </a>
     </li>
+    <li class="area-item">
+      <a class="area-card" href="/devices/lego-crossfader/">
+        <span class="area-img-wrap">
+          <img class="area-img" src="/assets/images/devices/lego-crossfader/IMG_4077.jpg" alt="LEGO Crossfader">
+        </span>
+        <div class="area-label">
+          LEGO Crossfader
+        </div>
+      </a>
+    </li>
     <li class="area-item">      <a class="area-card" href="/devices/pressure-change-detector/">
         <span class="area-img-wrap">
           <img class="area-img" src="/assets/images/devices/pressure-change-detector_sq.png" alt="温湿度気温差検知デバイス">
