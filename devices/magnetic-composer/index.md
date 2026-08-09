@@ -16,7 +16,7 @@ credit:
 この Magnetic Composer は、音楽の知識がない人でも直感的にテクノを演奏することができるマシンです。
 
 <video autoplay loop muted playsinline>
-  <source src="/assets/videos/devices/magnetic-composer/IMG_4184.mov" type="video/mp4">
+  <source src="/assets/videos/devices/magnetic-composer/IMG_4270 2.mov" type="video/mp4">
 </video>
 
 <img class="top-img" src="/assets/images/devices/magnetic-composer/IMG_4206.jpg" alt="Magnetic Composer">  
