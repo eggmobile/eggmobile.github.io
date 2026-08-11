@@ -15,16 +15,16 @@ through photography, narrative, and physical computing.</p>
 <ul class="area-grid">
 
   <li class="area-item">
-    <a class="area-card" href="/exhibitions/">
-      <img class="area-img" src="/assets/images/cover/exhibitions.png" alt="Exhibitions">
-      <div class="area-label">展覧会 (2026 ~ )</div>
+    <a class="area-card" href="/devices/">
+      <img class="area-img" src="/assets/images/cover/devices.jpg" alt="Devices">
+      <div class="area-label">デバイス (2026 ~ )</div>
     </a>
   </li>
 
   <li class="area-item">
-    <a class="area-card" href="/devices/">
-      <img class="area-img" src="/assets/images/cover/devices.png" alt="Devices">
-      <div class="area-label">デバイス (2026 ~ )</div>
+    <a class="area-card" href="/exhibitions/">
+      <img class="area-img" src="/assets/images/cover/exhibitions.png" alt="Exhibitions">
+      <div class="area-label">展覧会 (2026 ~ )</div>
     </a>
   </li>
 
