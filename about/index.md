@@ -6,10 +6,9 @@ permalink: /about/
 
 ## About
 
-Murayama Yoichi / 村山 庸一 is a graphic designer and visual creator based in Tokyo and Chiba, Japan.  
+Murayama Yoichi is a graphic designer and visual creator based in Tokyo and Chiba, Japan.  
 He was graduated from Graphic Design at Kyoto University of the Arts (distance program) in 2026 Mar.  
-村山 庸一 / Murayama Yoichi は、千葉を拠点に活動するグラフィックデザイナー／ビジュアルクリエイターです。  
-2026年に京都芸術大学 通信教育課程 グラフィックデザインコースを卒業しました。
+村山 庸一 は、千葉を拠点に活動するグラフィックデザイナー／ビジュアルクリエイターです。2026年に京都芸術大学 通信教育課程 グラフィックデザインコースを卒業しました。
 
 His practice explores distance, perception, and the relationship between personal experience and visual expression.  
 Recent works combine photography, narrative writing, typography, and interactive physical devices to create quiet but emotionally resonant experiences.
@@ -104,6 +103,7 @@ Kyoto University of the Arts, Kyoto, Japan
 March 8-15, 2026  
   
 **2025**  
+  
 <a class="contact-link" href="{{ '/grad/photo/' | relative_url }}">
 Solo Exhibition "Depression, Closer to Everyday Life"</a>  
 <a class="contact-link" href="{{ '/grad/photo/' | relative_url }}">
@@ -116,7 +116,8 @@ December 6–7, 2025
 ## Awards
 
 **2026**  
-Course Encouragement Award, Graduation Exhibition, Kyoto University of the Arts
+  
+Course Encouragement Award, Graduation Exhibition, Kyoto University of the Arts  
 京都芸術大学 卒業展 コース奨励賞  
 
 ---
